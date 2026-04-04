@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="96.147608">
-<testsuite name="identifyHospital.spec.ts" timestamp="2026-04-04T07:43:52.330Z" hostname="chromium" tests="3" failures="0" skipped="0" time="124.097" errors="0">
-<testcase name="@smoke Data Validation › @validate Search hospitals and validate details" classname="identifyHospital.spec.ts" time="90.264">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="120.407079">
+<testsuite name="identifyHospital.spec.ts" timestamp="2026-04-04T18:36:00.119Z" hostname="chromium" tests="3" failures="0" skipped="0" time="114.261" errors="0">
+<testcase name="@smoke Data Validation › @validate Search hospitals and validate details" classname="identifyHospital.spec.ts" time="89.919">
 <system-out>
 <![CDATA[Total hospital found: 10
 Clicked on hospital: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
@@ -46,31 +46,31 @@ Name of hospital: Cloudnine Hospital - Old Airport Road
 
 [[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\test-finished-1.png]]
 
-[[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video-4.webm]]
-
 [[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video-2.webm]]
 
 [[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video-1.webm]]
 
-[[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video.webm]]
-
 [[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video-3.webm]]
 
-[[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video-5.webm]]
+[[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video.webm]]
 
 [[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video-6.webm]]
 
+[[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video-5.webm]]
+
+[[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video-4.webm]]
+
 [[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video-7.webm]]
 
-[[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video-8.webm]]
-
 [[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video-9.webm]]
+
+[[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video-8.webm]]
 
 [[ATTACHMENT|test-results\identifyHospital--smoke-Da-51202-pitals-and-validate-details-chromium\video-10.webm]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="@smoke Data Validation › @add-to-cart lab tests" classname="identifyHospital.spec.ts" time="21.444">
+<testcase name="@smoke Data Validation › @add-to-cart lab tests" classname="identifyHospital.spec.ts" time="17.018">
 <system-out>
 <![CDATA[Available cities: [
   [32m'Agartala'[39m,    [32m'Agra'[39m,          [32m'Ahmedabad'[39m,   [32m'Ajmer'[39m,
@@ -107,7 +107,7 @@ Name of hospital: Cloudnine Hospital - Old Airport Road
 ]]>
 </system-out>
 </testcase>
-<testcase name="@smoke Data Validation › @corporate Corporate Wellness - invalid data keeps the button disabled" classname="identifyHospital.spec.ts" time="12.389">
+<testcase name="@smoke Data Validation › @corporate Corporate Wellness - invalid data keeps the button disabled" classname="identifyHospital.spec.ts" time="7.324">
 <system-out>
 <![CDATA[ Since the data is invalid, the 'Schedule a Demo' button is disabled.
 

@@ -4,6 +4,12 @@
   "description": "",
   "main": "index.js",
 "scripts": {
+    "test:all": "npx playwright test",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "test:validate": "npx playwright test --grep @validate",
+    "test:cart": "npx playwright test --grep @add-to-cart",
+    "test:corporate": "npx playwright test --grep @corporate",
     "go": "npx playwright test --project=chromium --headed",
     "allure": "npx allure serve allure-results",
     "allure-open": "npx allure open allure-report"
