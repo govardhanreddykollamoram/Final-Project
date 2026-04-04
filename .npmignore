@@ -1,0 +1,14 @@
+# Ignore local reports and results
+playwright-report/
+allure-results/
+allure-report/
+test-results/
+
+# Ignore media/screenshots
+screenshots/
+videos/
+
+# Ignore configuration and environment
+.env
+node_modules/
+.github/

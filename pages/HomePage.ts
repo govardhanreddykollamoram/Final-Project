@@ -14,12 +14,21 @@ export class HomePage {
     await this.page.waitForLoadState('domcontentloaded');
   }
 
+  // async searchLocation(location: string): Promise<void> {
+  //   await this.page.locator(HomeLocators.searchLocation).clear();
+  //   await this.page.locator(HomeLocators.searchLocation).pressSequentially(location, { delay: 150 });
+  //   await this.page.locator(HomeLocators.suggestionMain).first().click();
+  //   await takeActionScreenshot(this.page, `location-selected-${location}`);
+    
+  // }
   async searchLocation(location: string): Promise<void> {
+    await this.page.locator(HomeLocators.searchLocation).waitFor({ state: 'visible' });
+    await this.page.locator(HomeLocators.searchLocation).click();
     await this.page.locator(HomeLocators.searchLocation).clear();
     await this.page.locator(HomeLocators.searchLocation).pressSequentially(location, { delay: 150 });
+    await this.page.locator(HomeLocators.suggestionMain).first().waitFor({ state: 'visible' });
     await this.page.locator(HomeLocators.suggestionMain).first().click();
     await takeActionScreenshot(this.page, `location-selected-${location}`);
-    
   }
 
   async searchService(service: string): Promise<void> {

@@ -6,8 +6,6 @@ import { takeActionScreenshot } from '../utils/HelperFunctions';
 export class LabTestsPage{
 
    page:Page;
-
-
     constructor(page: Page){
     this.page=page;
 
@@ -19,11 +17,10 @@ export class LabTestsPage{
 
    async lab(){
       await this.page.locator(LabTestLocator.lab1).first().click();
-      await this.page.waitForLoadState('networkidle');
-    
+      await this.page.waitForLoadState('networkidle'); 
    }
    
-   
+  
    private escapeRegExp(s: string) {
       return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
    }
@@ -32,7 +29,7 @@ export class LabTestsPage{
   async selectCity(city: string) {
     const input = this.page.locator(LabTestLocator.cityInput).or(this.page.locator(LabTestLocator.cityInputAlt));
     await input.click();
-    await input.fill(''); // clear
+    await input.clear(); // clear
     await input.pressSequentially(city, { delay: 50 }); 
     await takeActionScreenshot(this.page, `select-city-${city}`);
 
@@ -46,7 +43,7 @@ export class LabTestsPage{
    
    async getCityList() {
     try {
-      //await this.page.getByRole('textbox', { name: LabTestLocator.globalSearchInput }).click();
+      
       const cities = await this.page.locator('.city-selector__city').all();
      
       const cityNames = await Promise.all(cities.map(city => city.innerText()));

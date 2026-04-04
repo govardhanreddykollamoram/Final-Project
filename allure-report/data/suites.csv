@@ -1,6 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","29241","@regression lab tests","chromium","2026-03-30","passed","2026-03-30","","LabTests.spec.ts","",""
-"","7506","get started link","chromium","2026-03-26","passed","2026-03-26","","example.spec.ts","",""
-"","99353","@sanity Search hospitals and validate details","chromium","2026-03-30","passed","2026-03-30","","Home.spec.ts","",""
-"","6652","has title","chromium","2026-03-26","passed","2026-03-26","","example.spec.ts","",""
-"","17939","Corporate Wellness - invalid data keeps the button disabled","chromium","2026-03-30","passed","2026-03-30","@corporate @buttonstate @negative","corporate.spec.ts","",""

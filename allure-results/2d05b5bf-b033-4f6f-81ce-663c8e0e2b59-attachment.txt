@@ -1,0 +1,41 @@
+Total hospital found: 10
+Clicked on hospital: Arka Anugraha Hospital
+Rating for Arka Anugraha Hospital: 0, Open 24x7: true
+Read more info button for Arka Anugraha Hospital is visible: true
+it is not contain
+Clicked on hospital: Deepasri Multispecialities Hospital
+Rating for Deepasri Multispecialities Hospital: 0, Open 24x7: false
+Read more info button for Deepasri Multispecialities Hospital is visible: false
+it is not contain
+Clicked on hospital: Partha Dental  Skin Hair
+Rating for Partha Dental  Skin Hair: 5.0, Open 24x7: false
+Read more info button for Partha Dental  Skin Hair is visible: false
+it is not contain
+Clicked on hospital: Apollo Hospital
+Rating for Apollo Hospital: 3.5, Open 24x7: false
+Read more info button for Apollo Hospital is visible: true
+it is not contain
+Clicked on hospital: Manipal Hospital
+Rating for Manipal Hospital: 4.5, Open 24x7: false
+Read more info button for Manipal Hospital is visible: true
+it is not contain
+Clicked on hospital: Apollo Cradle & Children’s Hospital
+Rating for Apollo Cradle & Children’s Hospital: 4.5, Open 24x7: false
+Read more info button for Apollo Cradle & Children’s Hospital is visible: true
+it is not contain
+Clicked on hospital: Partha Dental  Skin Hair
+Rating for Partha Dental  Skin Hair: 0, Open 24x7: false
+Read more info button for Partha Dental  Skin Hair is visible: false
+it is not contain
+Clicked on hospital: Green City Hospital
+Rating for Green City Hospital: 4.0, Open 24x7: false
+Read more info button for Green City Hospital is visible: true
+it is not contain
+Clicked on hospital: Milann Fertility & Birthing Hospital
+Rating for Milann Fertility & Birthing Hospital: 4.5, Open 24x7: true
+Read more info button for Milann Fertility & Birthing Hospital is visible: true
+it is not contain
+Clicked on hospital: Aster RV Hospital
+Rating for Aster RV Hospital: 4.5, Open 24x7: true
+Read more info button for Aster RV Hospital is visible: true
+Name of hospital: Aster RV Hospital

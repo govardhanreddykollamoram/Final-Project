@@ -1,9 +1,12 @@
 {
-  "name": "major_project",
-  "version": "1.0.0",
+  "name": "practo-automation-2026",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+"scripts": {
+    "go": "npx playwright test --project=chromium --headed",
+    "allure": "npx allure serve allure-results"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -7,9 +7,9 @@ export default defineConfig({
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
-  retries:2,
+  // retries:2,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 3: undefined,
+  workers: process.env.CI ? 1: undefined,
   reporter: [
     ['html', { 
       outputFolder: 'playwright-report',
