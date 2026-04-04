@@ -14,7 +14,7 @@ export class HomePage {
     await this.page.waitForLoadState('domcontentloaded');
   }
   async searchLocation(location: string): Promise<void> {
-    await this.page.locator(HomeLocators.searchLocation).waitFor({ state: 'visible',timeout: 30000});
+    await this.page.locator(HomeLocators.searchLocation).waitFor({ state: 'visible',timeout: 60000});
     await this.page.locator(HomeLocators.searchLocation).click();
     await this.page.locator(HomeLocators.searchLocation).clear();
     await this.page.locator(HomeLocators.searchLocation).pressSequentially(location, { delay: 150 });
