@@ -27,6 +27,7 @@ export class LabTestsPage{
 
   
   async selectCity(city: string) {
+    //LOGICAL OR SELECTOR ---> For self healing
     const input = this.page.locator(LabTestLocator.cityInput).or(this.page.locator(LabTestLocator.cityInputAlt));
     await input.click();
     await input.clear(); // clear
@@ -55,10 +56,7 @@ export class LabTestsPage{
     }
   }
 
-   
-
    async searchAndSelectTest(testName: string) {
-    //await this.page.getByRole('textbox', { name: LabTestLocator.globalSearchInput }).click();
     await this.page.getByRole('textbox', { name: LabTestLocator.globalSearchInput }).pressSequentially(testName, { delay: 200 });
     const row = this.page.locator('.c-suggestion').filter({
       has: this.page.getByText('Complete Blood Count', { exact: true }),

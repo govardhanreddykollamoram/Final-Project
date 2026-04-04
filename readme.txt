@@ -4,7 +4,9 @@
 **Tags:** @corporate @buttonstate @negative
 
 Purpose:
-This test verifies that when a user enters invalid information in the Corporate Wellness form, the “Schedule a Demo” button remains disabled. It ensures that the form enforces proper validation and prevents submission with incorrect data.
+This test verifies that when a user enters invalid information in the Corporate Wellness form, 
+the “Schedule a Demo” button remains disabled. It ensures that the form enforces proper 
+validation and prevents submission with incorrect data.
 
 Test Workflow:
 
@@ -59,7 +61,8 @@ File: LabTests.spec.ts
 Tags: @regression
 
 Purpose: 
-This regression test validates the workflow of selecting a city, searching for a lab test, adding it to the cart, and confirming that the selected test appears in the cart.
+This regression test validates the workflow of selecting a city, searching for a lab test, 
+adding it to the cart, and confirming that the selected test appears in the cart.
 
 Test Workflow:
 
@@ -83,7 +86,8 @@ This is a regression test covering end‑to‑end user flow for lab test booking
 
 ## Common Test Characteristics
 
-All tests follow the Page Object Model (POM) structure, making the scripts readable, maintainable, and modular. Screenshots are captured to document user actions and serve as evidence for test steps. Data‑driven testing is employed where applicable, such as the use of JSON files for invalid form data.
+All tests follow the Page Object Model (POM) structure, making the scripts readable,
+maintainable, and modular. Screenshots are captured to document user actions and serve as evidence for test steps. Data‑driven testing is employed where applicable, such as the use of JSON files for invalid form data.
 
 
 Summary of Test Coverage

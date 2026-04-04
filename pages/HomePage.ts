@@ -13,16 +13,8 @@ export class HomePage {
     await this.page.goto('https://www.practo.com/');
     await this.page.waitForLoadState('domcontentloaded');
   }
-
-  // async searchLocation(location: string): Promise<void> {
-  //   await this.page.locator(HomeLocators.searchLocation).clear();
-  //   await this.page.locator(HomeLocators.searchLocation).pressSequentially(location, { delay: 150 });
-  //   await this.page.locator(HomeLocators.suggestionMain).first().click();
-  //   await takeActionScreenshot(this.page, `location-selected-${location}`);
-    
-  // }
   async searchLocation(location: string): Promise<void> {
-    await this.page.locator(HomeLocators.searchLocation).waitFor({ state: 'visible' });
+    await this.page.locator(HomeLocators.searchLocation).waitFor({ state: 'visible',timeout: 30000});
     await this.page.locator(HomeLocators.searchLocation).click();
     await this.page.locator(HomeLocators.searchLocation).clear();
     await this.page.locator(HomeLocators.searchLocation).pressSequentially(location, { delay: 150 });

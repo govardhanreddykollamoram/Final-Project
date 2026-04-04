@@ -17,8 +17,6 @@ export class HospitalPage {
   async evaluateHospital(newPage: Page, name: string): Promise<boolean> {
     await newPage.waitForLoadState('domcontentloaded');
     
-    // const ratingText = await newPage.locator(HospitalLocators.ratingValue).textContent();
-    
   const ratingLocator = newPage.locator(HospitalLocators.ratingValue).first();
   let ratingText = '0';
   if (await ratingLocator.isVisible()) {

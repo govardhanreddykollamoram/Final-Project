@@ -5,7 +5,8 @@
   "main": "index.js",
 "scripts": {
     "go": "npx playwright test --project=chromium --headed",
-    "allure": "npx allure serve allure-results"
+    "allure": "npx allure serve allure-results",
+    "allure-open": "npx allure open allure-report"
   },
   "keywords": [],
   "author": "",

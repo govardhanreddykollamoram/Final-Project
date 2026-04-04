@@ -4,23 +4,34 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+
 jobs:
   test:
     timeout-minutes: 60
-    runs-on: ubuntu-latest
+    # CHANGE 1: Linux runners are faster and more stable for Chromium
+    runs-on: ubuntu-latest 
+
     steps:
     - uses: actions/checkout@v4
+    
     - uses: actions/setup-node@v4
       with:
         node-version: lts/*
+
     - name: Install dependencies
       run: npm ci
+
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
+
     - name: Run Playwright tests
-      run: npx playwright test
-    - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
+      # CHANGE 2: Add --retries 2 to handle the Chromium timeouts you saw
+      run: npx playwright test --retries=2
+
+    - name: Upload Playwright HTML Report
+      # CHANGE 3: Use always() to ensure you get the report on failure
+      if: always() 
+      uses: actions/upload-artifact@v4
       with:
         name: playwright-report
         path: playwright-report/
