@@ -9,10 +9,8 @@ import { takeActionScreenshot } from "../utils/HelperFunctions";
 test.describe("@smoke Data Validation", () => {
  
   test('@validate Search hospitals and validate details', async ({ page, context }) => {
-  // Basic hospital search functionality
   const homePage = new HomePage(page);
   const hospitalPage = new HospitalPage(page);
- 
   await homePage.navigate();
   await takeActionScreenshot(page, 'navigate');
   await homePage.searchLocation('Bangalore');
