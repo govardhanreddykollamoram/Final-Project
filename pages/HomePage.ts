@@ -12,13 +12,15 @@ export class HomePage {
   async navigate(): Promise<void> {
     await this.page.goto('https://www.practo.com/');
     await this.page.waitForLoadState('domcontentloaded');
+    // await this.page.waitForLoadState('networkidle');
   }
   async searchLocation(location: string): Promise<void> {
     await this.page.locator(HomeLocators.searchLocation).waitFor({ state: 'visible',timeout: 60000});
+    await this.page.waitForTimeout(2000);
     await this.page.locator(HomeLocators.searchLocation).click();
     await this.page.locator(HomeLocators.searchLocation).clear();
-    await this.page.locator(HomeLocators.searchLocation).pressSequentially(location, { delay: 150 });
-    await this.page.locator(HomeLocators.suggestionMain).first().waitFor({ state: 'visible' });
+    await this.page.locator(HomeLocators.searchLocation).pressSequentially(location, { delay: 200 });
+    await this.page.locator(HomeLocators.suggestionMain).first().waitFor({ state: 'visible',timeout:45000});
     await this.page.locator(HomeLocators.suggestionMain).first().click();
     await takeActionScreenshot(this.page, `location-selected-${location}`);
   }

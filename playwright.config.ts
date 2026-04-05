@@ -3,10 +3,11 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   timeout: 150 * 1000,
   testDir: './tests',
-  fullyParallel: true,
+  fullyParallel: false,
   forbidOnly: !!process.env.CI,
   retries:2,
-  workers: process.env.CI ? 1: undefined,
+  // workers: process.env.CI ? 1: undefined,
+  workers:1,
   reporter: [
     ['html', { 
       outputFolder: 'playwright-report',
@@ -15,9 +16,6 @@ export default defineConfig({
       outputFile: 'test-results/test-results.json' 
     }],
     ['line'],
-        ['junit', { 
-      outputFile: 'results.xml',
-    }],
     ['allure-playwright', { outputFolder: 'allure-results', detail: true }]
   ],  
   use: {

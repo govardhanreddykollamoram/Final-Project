@@ -1,0 +1,370 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - img "Hero Banner" [ref=e6]
+      - generic:
+        - navigation [ref=e7]:
+          - img "Practo Logo" [ref=e8]
+          - list [ref=e9]:
+            - text: Our Services Practo Ecosystem Product Capabilities Testimonials FAQs
+            - link "Group Insurance" [ref=e11] [cursor=pointer]:
+              - /url: https://www.partnership.practo.com/total-protect?utm_source=practo-plus-nav&utm_medium=organic&utm_campaign=organic
+        - generic [ref=e14]:
+          - heading "Your Workplace Health and Wellness Partner" [level=1] [ref=e15]
+          - generic [ref=e16]: Over 30cr users benefited by our holistic, customizable and accessible healthcare solutions
+      - generic [ref=e18]:
+        - heading "Schedule a Demo" [level=2] [ref=e19]
+        - generic [ref=e20]:
+          - textbox "Name" [ref=e22]: "123"
+          - textbox "Organization Name" [ref=e24]: "!"
+          - textbox "Contact Number" [active] [ref=e26]: "12"
+          - textbox "Official Email ID" [ref=e28]: invalid@
+          - combobox [ref=e30]:
+            - option "Organization Size" [disabled] [selected]
+            - option "<500"
+            - option "501-1000"
+            - option "1001-5000"
+            - option "5001-10000"
+            - option "10001+"
+          - combobox [ref=e32]:
+            - option "Interested In" [disabled] [selected]
+            - option "Taking a demo"
+            - option "Referring someone"
+            - option "Enquiring about an existing plan"
+            - option "A career opportunity"
+          - button "Schedule a demo" [disabled] [ref=e33] [cursor=pointer]
+    - generic [ref=e34]:
+      - link "Total Protect Banner" [ref=e36] [cursor=pointer]:
+        - /url: https://www.partnership.practo.com/total-protect?utm_source=practo-plus-dweb&utm_medium=organic&utm_campaign=organic
+        - img "Total Protect Banner" [ref=e37]
+      - generic [ref=e38]:
+        - heading "Our Clients" [level=2] [ref=e39]
+        - list [ref=e41]:
+          - listitem [ref=e42]:
+            - img "Client Logo" [ref=e43]
+          - listitem [ref=e44]:
+            - img "Client Logo" [ref=e45]
+          - listitem [ref=e46]:
+            - img "Client Logo" [ref=e47]
+          - listitem [ref=e48]:
+            - img "Client Logo" [ref=e49]
+          - listitem [ref=e50]:
+            - img "Client Logo" [ref=e51]
+          - listitem [ref=e52]:
+            - img "Client Logo" [ref=e53]
+          - listitem [ref=e54]:
+            - img "Client Logo" [ref=e55]
+      - generic [ref=e56]:
+        - heading "Our Services" [level=2] [ref=e57]
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - img "service" [ref=e60]
+            - generic [ref=e61]:
+              - generic [ref=e62]: Easy Online consultations
+              - generic [ref=e63]: Over 25 specialities guided by best in class doctors for effective care around the clock.
+          - generic [ref=e64]:
+            - img "service" [ref=e65]
+            - generic [ref=e66]:
+              - generic [ref=e67]: Online Pharmacy
+              - generic [ref=e68]: COVID-19 essentials and self-test kits provided, along with access to a large inventory for medicines.
+          - generic [ref=e69]:
+            - img "service" [ref=e70]
+            - generic [ref=e71]:
+              - generic [ref=e72]: Lab Tests at Home
+              - generic [ref=e73]: Discounts upto 20% on NABL-accredited lab tests and at-home tests in multiple cities.
+          - generic [ref=e74]:
+            - img "service" [ref=e75]
+            - generic [ref=e76]:
+              - generic [ref=e77]: Group Health Insurance
+              - generic [ref=e78]: Over 500+ day care procedures covered with a variety of payment options, for employees and family members.
+          - generic [ref=e79]:
+            - img "service" [ref=e80]
+            - generic [ref=e81]:
+              - generic [ref=e82]: SOS Ambulance Service
+              - generic [ref=e83]: 24/7 round the clock Ambulatory services along with equipped medical staff.
+          - generic [ref=e84]:
+            - img "service" [ref=e85]
+            - generic [ref=e86]:
+              - generic [ref=e87]: Mental Wellbeing Solutions
+              - generic [ref=e88]: Specially focused Mental Wellness plans available with regular informative webinars and constant support.
+          - generic [ref=e89]:
+            - img "service" [ref=e90]
+            - generic [ref=e91]:
+              - generic [ref=e92]: Covid Care Packages
+              - generic [ref=e93]: Covid-19 specific online consultations, lab tests, medical equipment, SOS assistance, and home care services
+          - generic [ref=e94]:
+            - img "service" [ref=e95]
+            - generic [ref=e96]:
+              - generic [ref=e97]: Engagement Activities & Gamification
+              - generic [ref=e98]: Webinars and other knowledge-building sessions, peer-group challenges, and other employee engagement activities
+    - generic [ref=e100]:
+      - heading "Why Choose Us?" [level=2] [ref=e101]
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - img "why choose us" [ref=e104]
+          - generic [ref=e105]:
+            - generic [ref=e106]: For Organizations
+            - generic [ref=e107]: Manage benefits, Improve Communication and Engage Employees
+        - generic [ref=e108]:
+          - img "why choose us" [ref=e109]
+          - generic [ref=e110]:
+            - generic [ref=e111]: For Employees
+            - generic [ref=e112]: Better Health, Easy Management and more vitality
+        - generic [ref=e113]:
+          - img "why choose us" [ref=e114]
+          - generic [ref=e115]:
+            - generic [ref=e116]: For Leaders
+            - generic [ref=e117]: Culture of Health and Wellness, Peer Interactions
+    - generic [ref=e119]:
+      - heading "Practo Ecosystem" [level=2] [ref=e120]
+      - paragraph [ref=e121]: With a rating of 4.5+ we ensure our healthcare solutions are top quality and uniquely personalised to every employee.
+      - generic [ref=e122]:
+        - list [ref=e125]:
+          - generic [ref=e126]:
+            - img [ref=e128]
+            - generic [ref=e129]:
+              - generic [ref=e130]: 15k+
+              - generic [ref=e131]: Instant consultations per day
+          - generic [ref=e132]:
+            - img [ref=e134]
+            - generic [ref=e135]:
+              - generic [ref=e136]: 30cr+
+              - generic [ref=e137]: Patients per year
+          - generic [ref=e138]:
+            - img [ref=e140]
+            - generic [ref=e141]:
+              - generic [ref=e142]: 1.2 lakh+
+              - generic [ref=e143]: Doctor partners
+        - img "World Map" [ref=e145]
+    - generic [ref=e147]:
+      - heading "Demo Video" [level=2] [ref=e148]
+      - iframe [ref=e150]:
+        - generic [active] [ref=f3e1]:
+          - generic "YouTube Video Player" [ref=f3e3]
+          - generic [ref=f3e5]:
+            - generic:
+              - generic:
+                - button "Play video" [ref=f3e10] [cursor=pointer]
+                - button "Hide player controls" [ref=f3e12] [cursor=pointer]
+                - generic [ref=f3e14]:
+                  - generic [ref=f3e19]:
+                    - generic [ref=f3e20]:
+                      - link "Practo - Employee Health Benefits | Designed for Corporates" [ref=f3e21] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=jwAWoiGIBJE
+                      - link "Practo" [ref=f3e22] [cursor=pointer]:
+                        - /url: /channel/UCGlsl2YPuCvklhbUWu1vuqQ
+                        - generic [ref=f3e23]: Practo
+                    - generic [ref=f3e24]:
+                      - button [ref=f3e25] [cursor=pointer]
+                      - generic [ref=f3e27]:
+                        - generic: Practo
+                        - generic: 134K subscribers
+                  - generic [ref=f3e28]:
+                    - button "Share" [ref=f3e31] [cursor=pointer]:
+                      - generic [ref=f3e35]:
+                        - img
+                    - link "Watch on YouTube" [ref=f3e42] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=jwAWoiGIBJE
+                      - generic [ref=f3e45]:
+                        - text: Watch on
+                        - img [ref=f3e47]:
+                          - generic [ref=f3e49]:
+                            - img
+    - generic [ref=e153]:
+      - heading "Product Capabilities" [level=2] [ref=e154]
+      - generic [ref=e155]:
+        - generic [ref=e158]:
+          - generic [ref=e162]:
+            - heading [level=3] [ref=e164]: Access to a large repository of health articles written by medical experts
+            - img [ref=e166]
+          - generic [ref=e170]:
+            - heading "Easy-to-use interface" [level=3] [ref=e172]
+            - img "Item" [ref=e174]
+          - generic [ref=e178]:
+            - heading [level=3] [ref=e180]: Dedicated dashboard for HRs for easy access and management
+            - img [ref=e182]
+          - generic [ref=e186]:
+            - heading [level=3] [ref=e188]: All records stored on secure servers
+            - img [ref=e190]
+          - generic [ref=e194]:
+            - heading [level=3] [ref=e196]: ISO 27001 certified
+            - img [ref=e198]
+          - generic [ref=e202]:
+            - heading [level=3] [ref=e204]: Access to a large repository of health articles written by medical experts
+            - img [ref=e206]
+          - generic [ref=e210]:
+            - heading [level=3] [ref=e212]: Easy-to-use interface
+            - img [ref=e214]
+          - generic [ref=e218]:
+            - heading [level=3] [ref=e220]: Dedicated dashboard for HRs for easy access and management
+            - img [ref=e222]
+          - generic [ref=e226]:
+            - heading [level=3] [ref=e228]: All records stored on secure servers
+            - img [ref=e230]
+          - generic [ref=e234]:
+            - heading [level=3] [ref=e236]: ISO 27001 certified
+            - img [ref=e238]
+          - generic [ref=e242]:
+            - heading [level=3] [ref=e244]: Access to a large repository of health articles written by medical experts
+            - img [ref=e246]
+        - generic [ref=e248]:
+          - listitem [ref=e249] [cursor=pointer]:
+            - button "• 1" [ref=e250]
+          - listitem [ref=e251] [cursor=pointer]:
+            - button "• 2" [ref=e252]
+          - listitem [ref=e253] [cursor=pointer]:
+            - button "• 3" [ref=e254]
+          - listitem [ref=e255] [cursor=pointer]:
+            - button "• 4" [ref=e256]
+          - listitem [ref=e257] [cursor=pointer]:
+            - button "• 5" [ref=e258]
+    - text: • • • • •
+    - generic [ref=e259]:
+      - generic [ref=e260]:
+        - heading "Testimonials" [level=2] [ref=e261]
+        - generic [ref=e263]:
+          - generic [ref=e266]:
+            - generic [ref=e269]:
+              - img [ref=e270]
+              - generic [ref=e271]:
+                - generic [ref=e272]: Mr. Dilip Chenoy Secretary-General
+                - img [ref=e274]
+                - generic [ref=e275]:
+                  - img [ref=e276]
+                  - img [ref=e277]
+                  - img [ref=e278]
+                  - img [ref=e279]
+                  - img [ref=e280]
+                - generic [ref=e281]: “We believe in Practo’s commitment to providing high-quality healthcare services to society, and in supporting the country’s working professional community. Practo and FICCI management will be working closely on every step"
+            - generic [ref=e284]:
+              - img "Mr. Varun Sheth" [ref=e285]
+              - generic [ref=e286]:
+                - generic [ref=e287]:
+                  - text: Mr. Varun Sheth
+                  - text: Co-founder & CEO
+                - img "logo" [ref=e289]
+                - generic [ref=e290]:
+                  - img "star" [ref=e291]
+                  - img "star" [ref=e292]
+                  - img "star" [ref=e293]
+                  - img "star" [ref=e294]
+                  - img "star" [ref=e295]
+                - generic [ref=e296]: "\"Inspired with the idea of ‘giving that gives back’ the social impact plan is focused on creating a community that believes in building a healthy India. It is our paramount responsibility to look after our donors whose relentless efforts are saving so many lives. We are very delighted to partner with Practo which echoes the same emotion, compassion, and passion towards building a healthy India.\""
+            - generic [ref=e299]:
+              - img [ref=e300]
+              - generic [ref=e301]:
+                - generic [ref=e302]: Mr. Naveen Tahilyani MD & CEO
+                - img [ref=e304]
+                - generic [ref=e305]:
+                  - img [ref=e306]
+                  - img [ref=e307]
+                  - img [ref=e308]
+                  - img [ref=e309]
+                  - img [ref=e310]
+                - generic [ref=e311]: "\"Through this partnership, beyond synergies at both sides, the consumers of Practo can access best-in-class solutions for safeguarding themselves and building a healthier life\"."
+            - generic [ref=e314]:
+              - img [ref=e315]
+              - generic [ref=e316]:
+                - generic [ref=e317]: Mr. Dilip Chenoy Secretary-General
+                - img [ref=e319]
+                - generic [ref=e320]:
+                  - img [ref=e321]
+                  - img [ref=e322]
+                  - img [ref=e323]
+                  - img [ref=e324]
+                  - img [ref=e325]
+                - generic [ref=e326]: “We believe in Practo’s commitment to providing high-quality healthcare services to society, and in supporting the country’s working professional community. Practo and FICCI management will be working closely on every step"
+            - generic [ref=e329]:
+              - img [ref=e330]
+              - generic [ref=e331]:
+                - generic [ref=e332]: Mr. Varun Sheth Co-founder & CEO
+                - img [ref=e334]
+                - generic [ref=e335]:
+                  - img [ref=e336]
+                  - img [ref=e337]
+                  - img [ref=e338]
+                  - img [ref=e339]
+                  - img [ref=e340]
+                - generic [ref=e341]: "\"Inspired with the idea of ‘giving that gives back’ the social impact plan is focused on creating a community that believes in building a healthy India. It is our paramount responsibility to look after our donors whose relentless efforts are saving so many lives. We are very delighted to partner with Practo which echoes the same emotion, compassion, and passion towards building a healthy India.\""
+            - generic [ref=e344]:
+              - img [ref=e345]
+              - generic [ref=e346]:
+                - generic [ref=e347]: Mr. Naveen Tahilyani MD & CEO
+                - img [ref=e349]
+                - generic [ref=e350]:
+                  - img [ref=e351]
+                  - img [ref=e352]
+                  - img [ref=e353]
+                  - img [ref=e354]
+                  - img [ref=e355]
+                - generic [ref=e356]: "\"Through this partnership, beyond synergies at both sides, the consumers of Practo can access best-in-class solutions for safeguarding themselves and building a healthier life\"."
+            - generic [ref=e359]:
+              - img [ref=e360]
+              - generic [ref=e361]:
+                - generic [ref=e362]: Mr. Dilip Chenoy Secretary-General
+                - img [ref=e364]
+                - generic [ref=e365]:
+                  - img [ref=e366]
+                  - img [ref=e367]
+                  - img [ref=e368]
+                  - img [ref=e369]
+                  - img [ref=e370]
+                - generic [ref=e371]: “We believe in Practo’s commitment to providing high-quality healthcare services to society, and in supporting the country’s working professional community. Practo and FICCI management will be working closely on every step"
+          - generic [ref=e373]:
+            - listitem [ref=e374] [cursor=pointer]:
+              - button "• 1" [ref=e375]
+            - listitem [ref=e376] [cursor=pointer]:
+              - button "• 2" [ref=e377]
+            - listitem [ref=e378] [cursor=pointer]:
+              - button "• 3" [ref=e379]
+      - generic [ref=e380]:
+        - img "trust" [ref=e382]
+        - img "trust" [ref=e384]
+      - generic [ref=e385]:
+        - heading "FAQs" [level=2] [ref=e386]
+        - generic [ref=e387]:
+          - button "Are the corporate benefits plans applicable to employees’ families?" [ref=e388]:
+            - generic [ref=e390]: Are the corporate benefits plans applicable to employees’ families?
+          - region "Are the corporate benefits plans applicable to employees’ families?":
+            - generic [ref=e392]: Yes, Corporate health benefits plans are available for employees as well as their family members - self + 4 adult family members + 2 kids. The employee needs to add his/her dependents on the health plan after activation. The same can be enabled via the family member section on the app’s Plus Membership page. Each adult family member will get a separate login with his/her own phone number.
+        - generic [ref=e393]:
+          - button "Are Practo doctors who conduct online consultations qualified to consult patients online?" [ref=e394]:
+            - generic [ref=e396]: Are Practo doctors who conduct online consultations qualified to consult patients online?
+          - region "Are the corporate benefits plans applicable to employees’ families?":
+            - generic [ref=e397]:
+              - generic [ref=e398]: Practo follows a strict verification process for every doctor providing online service. They are well-qualified doctors and their necessary documents and medical council registration certificates are thoroughly verified. All qualifications are as per the Medical Council of India guidelines. Practo has a soft copy of all degrees of doctors and medical council registration certification in its repository.
+              - generic [ref=e399]: "For more details please refer to: https://www.practo.com/bluebook/india"
+        - generic [ref=e400]:
+          - button "Can I consult a doctor of my choice?" [ref=e401]:
+            - generic [ref=e403]: Can I consult a doctor of my choice?
+          - region "Are the corporate benefits plans applicable to employees’ families?":
+            - generic [ref=e405]: Currently, we auto-allocate the doctor for you. We do show the list of doctors rostered for that day before the consultation. We also offer consultations in 15 vernacular languages to fit everyone's convenience.
+        - text: Know more
+    - contentinfo [ref=e406]:
+      - generic [ref=e407]:
+        - generic [ref=e408]:
+          - generic [ref=e409]:
+            - img "Practo Logo" [ref=e411]
+            - paragraph [ref=e412]: Practo is on a mission to make quality healthcare affordable and accessible for over a billion+ Indians.
+          - generic [ref=e413]:
+            - paragraph [ref=e414]: Quick Links
+            - text: Our Services Practo Ecosystem Product Capabilities
+          - generic [ref=e415]: Testimonials FAQs
+        - generic [ref=e416]:
+          - link "Linkedin" [ref=e417] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/practo-technologies-pvt-ltd?utm_source=corporate_LP&utm_medium=website&utm_campaign=organic
+            - img "Linkedin" [ref=e418]
+          - link "Instagram" [ref=e419] [cursor=pointer]:
+            - /url: https://www.instagram.com/practo/?utm_source=corporate_LP&utm_medium=website&utm_campaign=organic
+            - img "Instagram" [ref=e420]
+          - link "Twitter" [ref=e421] [cursor=pointer]:
+            - /url: https://twitter.com/Practo?utm_source=corporate_LP&utm_medium=website&utm_campaign=organic
+            - img "Twitter" [ref=e422]
+          - link "Facebook" [ref=e423] [cursor=pointer]:
+            - /url: https://www.facebook.com/practo/?utm_source=corporate_LP&utm_medium=website&utm_campaign=organic
+            - img "Facebook" [ref=e424]
+  - img
+```
